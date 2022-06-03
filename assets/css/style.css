@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
 body{
-    font-family:fantasy;
+    font-family:'Creepster', cursive ;
+    font-weight:400;
     color:rgb(189, 8, 8);
     background-color: #1d1d17;
     text-align:center;
