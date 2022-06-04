@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
 *{
     margin:0;
     padding:0;
@@ -10,4 +11,10 @@ body{
     color:rgb(189, 8, 8);
     background-color: #1d1d17;
     text-align:center;
+}
+#logo{
+    float:left;
+    font-size: 280%;
+    font-family:'Eater',cursive;
+    letter-spacing:8px;
 }
