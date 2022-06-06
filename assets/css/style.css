@@ -87,12 +87,12 @@ header{
 
 }
 #introductions p{   
-    float:left;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: left;
-    font-family: cursive;
-    font-size: 110%;
+
+    font-family:'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    font-size: 160%;
     color:#000000;
+    padding:70px 70px 0 70px;
 }
 #memory{
     clear: both;
