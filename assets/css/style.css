@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
 *{
@@ -77,14 +77,57 @@ header{
     font-size: 300%;
     text-align: center;
 }
-hr{
+#introductions hr{
     border:2px dashed #1d1d17;
 }
 #introductions div{
     height:600px;
-    border-radius: 10px;
-    background-color: rgba(94, 90, 90, 0.6);
+    border-radius: 5px;
+    background-color:rgba(173, 62, 62, 0.7);
+
 }
-#introductions p{
-    color:#ffffff;
+#introductions p{   
+    float:left;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: left;
+    font-family: cursive;
+    font-size: 110%;
+    color:#000000;
 }
+#memory{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+#memory div{
+    height:1200px;
+    width:100%;
+}
+
+
+
+
+
+
+footer {
+    height: 75px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+    margin-top: 5px;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 3px;
+    padding: 5%;
+    padding-bottom: 10px;
+    color: rgb(167, 5, 5);
+}
+
