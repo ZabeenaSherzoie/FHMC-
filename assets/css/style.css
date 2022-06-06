@@ -57,3 +57,34 @@ header{
     border-bottom: 1px dashed #696868;
     background-color:#1d1d17;
 }
+#outer{
+    height: 600px;
+    width:100%;
+    border-top: 3px solid #1d1d17;
+    border-bottom: 3px dashed #1d1d17;
+    overflow: hidden;
+}
+#main-image{
+    height: 600px;
+    width:100%;
+    background:url('../images/my-project.webp') no-repeat center center;
+    
+}
+#introductions{
+    height: 600px;
+}
+#introductions h1{
+    font-size: 300%;
+    text-align: center;
+}
+hr{
+    border:2px dashed #1d1d17;
+}
+#introductions div{
+    height:600px;
+    border-radius: 10px;
+    background-color: rgba(94, 90, 90, 0.6);
+}
+#introductions p{
+    color:#ffffff;
+}
