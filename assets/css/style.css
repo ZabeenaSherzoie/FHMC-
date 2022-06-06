@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -8,13 +10,50 @@
 body{
     font-family:'Creepster', cursive ;
     font-weight:400;
-    color:rgb(189, 8, 8);
-    background-color: #1d1d17;
+    color:rgb(167, 5, 5);
+    background-color: #000000;
     text-align:center;
+}
+header{
+    background-color: #1d1d17;
 }
 #logo{
     float:left;
     font-size: 280%;
-    font-family:'Eater',cursive;
+    font-family:'Nosifer',cursive;
+    color:rgb(167, 5, 5);
     letter-spacing:8px;
+}
+#menu{
+    font-size:110%;
+    letter-spacing:2px;
+}
+#menu,
+#logo,#film {
+    line-height: 75px;
+}
+#film {
+    float:right;
+    margin:0 30px 0 0;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menu a:hover {
+    border-bottom: 1px dashed #696868;
+    color:#696868;
+}
+.active {
+    border-bottom: 1px dashed #696868;
+    background-color:#1d1d17;
 }
