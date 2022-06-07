@@ -101,12 +101,9 @@ header{
     column-count: 4;
     column-gap: 0;
 }
-#memory div{
-    height:1200px;
-    width:100%;
+#memory>img {
+    width: 100%;
 }
-
-
 
 
 
