@@ -106,10 +106,9 @@ header{
 }
 
 
-
-
 footer {
-    height: 75px;
+    height: 30px;
+    border-top:10px solid #1d1d17;
 }
 
 .social-networks {
