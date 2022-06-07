@@ -2,39 +2,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    border:none;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
-body{
-    font-family:'Creepster', cursive ;
-    font-weight:400;
-    color:rgb(167, 5, 5);
+
+body {
+    font-family: 'Creepster', cursive;
+    font-weight: 400;
+    color: rgb(167, 5, 5);
     background-color: #000000;
-    text-align:center;
+    text-align: center;
 }
-header{
+
+header {
     background-color: #1d1d17;
 }
-#logo{
-    float:left;
-    font-size: 280%;
-    font-family:'Nosifer',cursive;
-    color:rgb(167, 5, 5);
-    letter-spacing:8px;
+
+#logo {
+    float: left;
+    font-size: 260%;
+    font-family: 'Nosifer', cursive;
+    color: rgb(167, 5, 5);
+    letter-spacing: 8px;
 }
-#menu{
-    font-size:110%;
-    letter-spacing:2px;
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
 }
+
 #menu,
-#logo,#film {
+#logo,
+#film {
     line-height: 75px;
 }
+
 #film {
-    float:right;
-    margin:0 30px 0 0;
+    float: right;
+    margin: 0 30px 0 0;
 }
 
 #menu li {
@@ -51,53 +58,62 @@ header{
 
 #menu a:hover {
     border-bottom: 1px dashed #696868;
-    color:#696868;
+    color: #696868;
 }
+
 .active {
     border-bottom: 1px dashed #696868;
-    background-color:#1d1d17;
+    background-color: #1d1d17;
 }
-#outer{
+
+#outer {
     height: 600px;
-    width:100%;
+    width: 100%;
     border-top: 3px solid #1d1d17;
     border-bottom: 3px dashed #1d1d17;
     overflow: hidden;
 }
-#main-image{
+
+#main-image {
     height: 600px;
-    width:100%;
-    background:url('../images/my-project.webp') no-repeat center center;
-    
+    width: 100%;
+    background: url('../images/my-project.webp') no-repeat center center;
+
 }
-#introductions{
+
+#introductions {
     height: 660px;
-    width:100%;
+    width: 100%;
 }
-#introductions h1{
+
+#introductions h2 {
     font-size: 300%;
     text-align: center;
     color: darkred;
 }
-#introductions hr{
-    border:2px dashed #1d1d17;
+
+#introductions hr {
+    border: 2px dashed #1d1d17;
 }
-#introductions div{
-    height:600px;
+
+#introductions div {
+    height: 600px;
     border-radius: 5px;
-    background-color:rgba(173, 62, 62, 0.7);
+    background-color: rgba(173, 62, 62, 0.7);
 }
-#introductions a{
+
+#introductions a {
     text-decoration: none;
 }
-#introductions p{   
 
-    font-family:'Kdam Thmor Pro', sans-serif;
+#introductions p {
+
+    font-family: 'Kdam Thmor Pro', sans-serif;
     text-align: center;
     font-size: 160%;
-    color:#000000;
-    padding:70px 70px 0 70px;
-} 
+    color: #000000;
+    padding: 70px 70px 0 70px;
+}
 
 #memory{
     clear: both;
@@ -105,15 +121,20 @@ header{
     column-count: 4;
     column-gap: 0;
 }
+
+
 #memory>img {
     width: 100%;
 }
-
+#memory h1{
+    text-align: center;
+    font-size: 300%;
+    clear: both;
+    margin: 5px;
+}
 
 footer {
-    height: 30px;
-    border-top:1px solid #1d1d17;
-    color: #1d1d17;
+    height: 150px;
 }
 
 .social-networks {
@@ -123,15 +144,11 @@ footer {
 
 .social-networks>li {
     display: inline;
-    margin-top: 5px;
-    padding:10px 0 10px 0;
 }
 
 .social-networks i {
-    font-size: 150%;
-    margin: 3px;
+    font-size: 200%;
+    margin: 1px;
     padding: 5%;
-    padding-bottom: 10px;
     color: rgb(167, 5, 5);
 }
-
