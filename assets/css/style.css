@@ -78,7 +78,7 @@ body {
 #introductions h2 {
     font-size: 300%;
     text-align: center;
-    color:#fa0000;
+    color: #fa0000;
 }
 
 #introductions hr {
@@ -104,23 +104,24 @@ body {
     padding: 100px 100px 100px 100px;
 }
 
-#memory{
+#introductions>#a-tag {
+    background-color: #000000;
+    height: 100px;
+}
+
+#memory {
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 0; 
+    column-gap: 0;
 }
 
 
 #memory>img {
     width: 100%;
 }
-#memory h1{
-    text-align: center;
-    font-size: 300%;
-    clear: both;
-    margin: 5px;
-}
+
+
 
 footer {
     height: 150px;
@@ -142,18 +143,28 @@ footer {
     padding: 5%;
     color: #fa0000;
 }
-#film{
-    height: 600px;
-    width:100%;
-    overflow:hidden;
 
-}
-#im{
+#film {
     height: 600px;
     width:100%;
-    background:url('../images/My-project.png') no-repeat center center;
+    background: url('../images/My-project.png');
+    clear: left;
+    background-position: center;
+    background-size: cover;
 }
-#introductions > #a-tag{
-    background-color: #000000;
-    height: 100px;
+
+#registerF {
+    margin: 150px 10% 0 0;
+    padding: 30px;
+    background-color: rgba(60, 60, 60, 0.6);
+    color: #fff;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+}
+
+#registerF>h2,
+h3 {
+    color: #fafafa;
+    margin-bottom: 20px;
 }
