@@ -164,3 +164,11 @@ h3 {
     color: #ffffff;
     margin-bottom: 20px;
 }
+#four-o-four{
+    font-size: 110%;
+    padding:20% 40% 20% 40%;
+}
+#four-o-four a {
+    text-decoration: none;
+    color:#fa0000;
+}
