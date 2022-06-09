@@ -52,8 +52,9 @@ body {
 }
 
 .active {
-    border-bottom: 1px dashed #696868;
-    background-color: #1d1d17;
+    border-bottom: 1px dashed #f1ebeb;
+    background-color: #070707;
+
 }
 
 #outer {
@@ -88,7 +89,7 @@ body {
 #introductions div {
     height: 550px;
     border-radius: 5px;
-    background-color: rgba(173, 62, 62, 0.6);
+    background-color: rgba(151, 142, 142, 0.644);
 }
 
 #introductions a {
