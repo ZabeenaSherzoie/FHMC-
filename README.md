@@ -42,7 +42,7 @@ To make regsitration with ease and navigate and interact with the page easily.
 Get introduced with the cinema and have a great experience with navigation and registration.
 # Design:
 ## Color Scheme:
-The colour palette was created with the thought to provide as much contrast as possible.The body background is black to make a good contrast with the ligth red headers and logo to remind the users of horror movies, besides a shade of grey is used to cover the introduction section's background for better readibility.
+The colour palette was created with the thought to provide as much contrast as possible.The body background is black to make a good contrast with the ligth red headers and logo to remind the users of horror movies, besides white color is used for the paragraph in the introduction section to provide better contrast and readibility
 ### Typography:
 Nosifer was selected for the main heading or logo on each of the pages, accompanied by Creepster for headers and Kdam Thmor Pro for main paragraph. Which the two first reminds us the texts in horror movies.The contrast between colors is checked in  [HERE](https://webaim.org/resources/contrastchecker/).
 ![Contrast checker result](/assets/images/readme-images/contrast-checker.png)
@@ -106,7 +106,10 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ### Content:
 As my knowledge of implementation is limited at this point of my learning journey, I took inspiration for the design of the memory page, along with the display of the social links in the footer element from the 'love running'project
-My mentor [Malia Havlicek](https://github.com/maliahavlicek) helped me understand responsive  My friend [Fahim Mayar](https://github.com/Fahimmayar) and my metor
+My mentor [Malia Havlicek](https://github.com/maliahavlicek) helped me understand flexbox which was very help full in building a responsive webpage.
+### Media:
+The home page image and the registration page's background are collages I made by  Adobe Creative Cloud Express using some Movie Posters I searched in Google.
+All other images in the memory page is my own media and photography.
 
 
 
