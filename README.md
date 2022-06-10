@@ -25,7 +25,7 @@
    + [Media](#media "Media")
 # FHMC
 
-![Site view across devices](/assets/images/readme-images/am-I-responsive.png)
+![Site view across devices](assets/images/readme-images/am-I-responsive.png)
 The FHMC site is live, the link to which can be found [HERE](https://zabeenasherzoie.github.io/first-project-FHMC/)
 ## UX:
 ### Site Purpose:
@@ -45,26 +45,26 @@ Get introduced with the cinema and have a great experience with navigation and r
 The colour palette was created with the thought to provide as much contrast as possible.The body background is black to make a good contrast with the ligth red headers and logo to remind the users of horror movies, besides white color is used for the paragraph in the introduction section to provide better contrast and readibility
 ### Typography:
 Nosifer was selected for the main heading or logo on each of the pages, accompanied by Creepster for headers and Kdam Thmor Pro for main paragraph. Which the two first reminds us the texts in horror movies.The contrast between colors is checked in  [HERE](https://webaim.org/resources/contrastchecker/).
-![Contrast checker result](/assets/images/readme-images/contrast-checker.png)
+![Contrast checker result](assets/images/readme-images/contrast-checker.png)
 ### Imagery:
 All the imagery on the site, excluding the registeration page background and the home page hero image is my own photography. For the The Hero image and registeration page background I took the images from google and made a collage out of them.
 ## Features:
 ### Existing Features:
 #### Navigation Bar:
 This is included across all three pages, and provides people with an easy reference to navigate between the 'Home', 'Memories' & 'Registration' pages.
-![Navigation bar](/assets/images/readme-images/navigationbar.png)
+![Navigation bar](assets/images/readme-images/navigationbar.png)
 #### Landing Page:
 This defines the feel of the website, providing the user with an image that they can easily associate to what the company is & does.
-![Hero image](/assets/images/readme-images/landing-page.png)
+![Hero image](assets/images/readme-images/landing-page.png)
 #### Intorduction:
 Talks about the website and how this idea came to mind.
-![Introduction](/assets/images/readme-images/Inroduction.png)
+![Introduction](assets/images/readme-images/Inroduction.png)
 #### Memory Page:
 Includes some memories of friends who has experienced this cinema.
-![Memories](/assets/images/readme-images/memories.png)
+![Memories](assets/images/readme-images/memories.png)
 #### Registration Page:
 Which you can input your email and let us manager other stuff if you want to have such an experiene.
-![Introduction](/assets/images/readme-images/register.png)
+![Introduction](assets/images/readme-images/register.png)
 ### Future Features:
 - An Experiences page
 - A Movies page to show available movies
@@ -78,9 +78,9 @@ I also got stuck with the div elements' contents overriding the footer and I tri
 - Html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
 ![html-validator](/assets/images/readme-images/html-validator.png)
 - Html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
-![Jigsaw validator message](/assets/images/readme-images/css-validator.png)
+![Jigsaw validator message](assets/images/readme-images/css-validator.png)
 - Page has an excellent Accessibility rating in Lighthouse
-![Accessibility score](/assets/images/readme-images/light-house.png)
+![Accessibility score](assets/images/readme-images/light-house.png)
 - Tested the site opens in Brave, Chrome & Safari without issues.
 - All links open to external pages as intended.
 ## Technologies Used:
