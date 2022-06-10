@@ -52,13 +52,14 @@ All the imagery on the site, excluding the registeration page background and the
 ### Existing Features:
 #### Navigation Bar:
 This is included across all three pages, and provides people with an easy reference to navigate between the 'Home', 'Memories' & 'Registration' pages.
+
 ![Navigation bar](assets/images/readme-images/navigationbar.png)
 #### Landing Page:
 This defines the feel of the website, providing the user with an image that they can easily associate to what the company is & does.
 ![Hero image](assets/images/readme-images/landing-page.png)
 #### Intorduction:
 Talks about the website and how this idea came to mind.
-![Introduction](assets/images/readme-images/Inroduction.png)
+![Introduction](assets/images/readme-images/inroduction.png)
 #### Memory Page:
 Includes some memories of friends who has experienced this cinema.
 ![Memories](assets/images/readme-images/memories.png)
