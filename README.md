@@ -13,6 +13,7 @@
    + [Imagery](#imagery "Imagery")
  + [Features](#features "Features")
    + [Existing Features](#existing-features "Existing Features")
+   + [Future Features](#future-features "Future Features")
  + [Testing](#testing "Testing")
    + [Validator Testing](#validator-testing "Validator Testing")
    + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
@@ -63,8 +64,24 @@ Talks about the website and how this idea came to mind.
 Includes some memories of friends who has experienced this cinema.
 ![Memories](/assets/images/readme-images/memories.png)
 #### Registration Page:
-Which you can input your email if you want to have such an experiene.
+Which you can input your email and let us manager other stuff if you want to have such an experiene.
 ![Introduction](/assets/images/readme-images/register.png)
+### Future Features:
+- An Experiences page
+- A Movies page to show available movies
+## Testing:
+The media queries were very challenging. It took a lot of trial & error in the Chrome Dev tool to adjust everything accordingly so that it would not display horribly when the page was to be resized.
+I faced problem figuring out the right rules for the form  responsivity issue specialy for less than 500px wide screens then I figured out to give the select element a float rigth and to put the form element inside a div.
+I realised that my memory page was loading slowly due to images sizes so I changed thier format from jpg and png to webp and it solved the problem.
+While running the html files through W3C validator, upon initial run, some sections failed. Because I used empty h1's to place some icons througout the page once I removed them I passed it.
+I also got stuck with the div elements' contents overriding the footer and I tried so many approach but then realized that the solution was very easy and I add margins the problem was solved.
+### Validator Testing:
+- html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
+![html-validator](/assets/images/readme-images/html-validator.png)
+- html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
+![Jigsaw validator message](/assets/images/readme-images/css-validator.png)
+
+
 
 
 
