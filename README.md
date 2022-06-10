@@ -4,4 +4,4 @@ Friends' Horror Movie Cinema is a cinema built for those who love spendig time w
 The intent of the  website is to introduce our audience to such a cinema and to aid them in getting the most out of their time spending with their friends and giving them the oppurtunity to choose the location, snacks and even the light of the salon.
 
 
-The FHMC site is live, the link to which can be found [HERE](https://zabeenasherzoie.github.io/FHMCN-protfolio-one-/)
+The FHMC site is live, the link to which can be found [HERE](https://zabeenasherzoie.github.io/first-project-FHMC/)

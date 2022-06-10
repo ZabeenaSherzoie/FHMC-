@@ -242,5 +242,11 @@ select{
         height: auto;
         overflow: hidden;
     }
+    #menu {
+        font-size: 90%;
+        letter-spacing: 1px;
+    }
+    
+    
 }
 
