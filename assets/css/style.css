@@ -151,7 +151,7 @@ footer {
 
 .registerF {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 150px 10% 0 0;
+    margin: 100px 10% 50px 10px;
     padding: 30px;
     background-color: rgba(5, 5, 5, 0.671);
     color: #fcdada;
@@ -243,6 +243,15 @@ select {
         display: inline;
     }
 
+    .registerF {
+        margin: 100px 10% 50px 10px;
+        padding: 30px;
+        max-width: 400px;
+        position: absolute;
+        left: 25%;
+
+    }
+
 }
 
 @media screen and (max-width:500px) {
@@ -261,5 +270,5 @@ select {
         letter-spacing: 1px;
     }
 
-
+    
 }
