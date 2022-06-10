@@ -16,7 +16,6 @@
    + [Future Features](#future-features "Future Features")
  + [Testing](#testing "Testing")
    + [Validator Testing](#validator-testing "Validator Testing")
-   + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
  + [Technologies Used](#technologies-used "Technologies Used")
    + [Main Languages Used](#main-languages-used "Main Languages Used")
    + [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used "Frameworks, Libraries & Programs Used")
@@ -76,12 +75,38 @@ I realised that my memory page was loading slowly due to images sizes so I chang
 While running the html files through W3C validator, upon initial run, some sections failed. Because I used empty h1's to place some icons througout the page once I removed them I passed it.
 I also got stuck with the div elements' contents overriding the footer and I tried so many approach but then realized that the solution was very easy and I add margins the problem was solved.
 ### Validator Testing:
-- html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
+- Html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
 ![html-validator](/assets/images/readme-images/html-validator.png)
-- html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
+- Html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
 ![Jigsaw validator message](/assets/images/readme-images/css-validator.png)
+- Page has an excellent Accessibility rating in Lighthouse
+![Accessibility score](/assets/images/readme-images/light-house.png)
+- Tested the site opens in Brave, Chrome & Safari without issues.
+- All links open to external pages as intended.
+## Technologies Used:
+### Main Languages Used:
+- HTML5
+- CSS3
 
+### Frameworks, Libraries & Programs Used:
+- Google Fonts - for the font families: Creeper, Nosifer & Kdam Thmor Pro. 
+- Font Awesome - to add icons to the social links in the header nav and footer element.
+- GitPod - to creat my html files & styling sheet before pushing the project to Github.
+- GitHub - to store my repository for submission.
+- Adobe creative cloud express for making collages.
+- Am I Responsive? - to ensure the project looked good across all devices.
+## Deployment:
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- Go to the page section.
+ From the source section drop-down menu, select the main Branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found [HERE-->FHMC](https://zabeenasherzoie.github.io/first-project-FHMC/)
+## Credits:
 
+### Content:
+As my knowledge of implementation is limited at this point of my learning journey, I took inspiration for the design of the memory page, along with the display of the social links in the footer element from the 'love running'project
+My mentor [Malia Havlicek](https://github.com/maliahavlicek) helped me understand responsive  My friend [Fahim Mayar](https://github.com/Fahimmayar) and my metor
 
 
 
