@@ -108,6 +108,7 @@ body {
 }
 
 #introductions>#a-tag {
+    margin-top:75px;
     background-color: #000000;
     height: 100px;
 }
