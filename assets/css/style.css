@@ -54,11 +54,9 @@ body {
 .active {
     border-bottom: 1px dashed #f1ebeb;
     background-color: #070707;
-
 }
 
 #outer {
-
     width: 100%;
     border-top: 3px solid #1d1d17;
     border-bottom: 3px dashed #1d1d17;
@@ -121,7 +119,6 @@ body {
     column-gap: 0;
 }
 
-
 #memory>img {
     width: 100%;
 }
@@ -162,7 +159,6 @@ footer {
 
 .registerF {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
     padding: 30px;
     background-color: rgba(5, 5, 5, 0.671);
     color: #fcdada;
@@ -171,7 +167,6 @@ footer {
 .registerF>h2,
 h3 {
     color: #eb7413;
-
 }
 
 select {
@@ -232,8 +227,6 @@ select {
         font-size: 125%;
         padding: 5px 5px 5px 5px;
     }
-
-
 }
 
 @media screen and (max-width:900px) {
@@ -253,11 +246,11 @@ select {
     #introductions div {
         height: auto;
         border-radius: 5px;
-        background-color: rgba(151, 142, 142, 0.644);
+        background-color: rgba(3, 3, 3);
     }
 
     #introductions p {
-
+        color: #ffffff;
         font-family: 'Kdam Thmor Pro', sans-serif;
         text-align: center;
         font-size: 125%;
@@ -282,8 +275,6 @@ select {
         width: 80%;
         margin: 50px auto;
     }
-
-
 }
 
 @media screen and (max-width:500px) {
@@ -307,4 +298,17 @@ select {
         margin: 50px auto;
     }
 
+    #introductions div {
+        height: auto;
+        border-radius: 5px;
+        background-color: rgba(3, 3, 3);
+    }
+
+    #introductions p {
+        color: #ffffff;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        text-align: center;
+        font-size: 125%;
+        padding: 5px 5px 5px 5px;
+    }
 }
