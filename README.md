@@ -59,7 +59,7 @@ This defines the feel of the website, providing the user with an image that they
 ![Hero image](assets/images/readme-images/landing-page.png)
 #### Intorduction:
 Talks about the website and how this idea came to mind.
-![Introduction](assets/images/readme-images/inroduction.png)
+![Introduction](assets/images/readme-images/introduction.png)
 #### Memory Page:
 Includes some memories of friends who has experienced this cinema.
 ![Memories](assets/images/readme-images/memories.png)
