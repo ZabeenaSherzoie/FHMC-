@@ -129,7 +129,6 @@ footer {
 
 .social-networks {
     text-align: center;
-
 }
 
 .social-networks>li {
@@ -197,3 +196,51 @@ select{
     text-decoration: none;
     color:#fa0000;
 }
+@media screen and (max-width:900px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #introductions{
+        height: auto;
+        width: 100%;
+    }
+    #introductions div {
+        height: auto;
+        border-radius: 5px;
+        background-color: rgba(151, 142, 142, 0.644);
+    }
+    #introductions p {
+
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        text-align: center;
+        font-size: 125%;
+        padding: 5px 5px 5px 5px;
+    }
+    #memory {
+        column-count: 3;
+    }
+    footer {
+        margin:20px 10px 20px 10px;
+        height: auto;
+        overflow: hidden;
+    }
+    .social-networks>li {
+        display: inline;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    #memory {
+        column-count: 2;
+    }
+    footer {
+        margin:75px 10px 50px 10px;
+        height: auto;
+        overflow: hidden;
+    }
+}
+
