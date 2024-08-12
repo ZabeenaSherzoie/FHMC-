@@ -15,7 +15,7 @@
 <body>
     <header>
         <!-- Logo -->
-        <a href="index.html">
+        <a id="logo_anch" href="index.html">
             <h1 id="logo"><i class="fa-solid fa-film"></i>FHMC</h1>
         </a>
 
@@ -23,12 +23,17 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="index.html">Home<i class="fa-solid fa-house"></i></a>
+                    <a href="home.html">Home<i class="fa-solid fa-house"></i></a>
                 </li>
                 <li>
                     <a href="memory.html">Memories<i class="fa-solid fa-clapperboard"></i></a>
                 </li>
-
+                <li>
+                    <a href="movies.html">Movies<i class="fa-solid fa-film"></i></a>
+                </li>
+                <li>
+                    <a href="./about.html">About<i class="fa-regular fa-circle-question"></i></a>
+                </li>
                 <li>
                     <a href="registration.html" class="active">Regestration<i
                             class="fa-solid fa-arrow-right-to-bracket"></i></a>
@@ -39,7 +44,7 @@
     <div id="film">
         <!-- Registration Form-->
         <div class="my-form">
-            <form class='registerF' method="POST" action="https://formdump.codeinstitute.net/">
+            <form class='registerF' method="POST" >
                 <h2>Dare to join the fun?</h2>
                 <h3>Enter your your details and we will send you the data on our next showing.</h3>
                 <label for="full-name">Full Name</label>
@@ -53,7 +58,7 @@
                     <option value="10-13">10-13 persons</option>
                     <option value="13+">More than 13 persons</option>
                 </select>
-                <input id="submit" value="Go!" type="submit">
+                <input id="submit" value="Go!" type="submit" onclick="alertfunc()">
             </form>
         </div>
     </div>
@@ -80,6 +85,7 @@
     </footer>
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/2408548ad3.js" crossorigin="anonymous"></script>
+   
 </body>
 
 </html>

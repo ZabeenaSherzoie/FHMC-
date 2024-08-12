@@ -7,95 +7,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A night cinema for friends who are horror movies' fan">
     <meta name="keywords" content="Cinema, Horror, Movie, Friends, Night">
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>FHMCN-Friends' Horror Movie Cinema Night </title>
+    <title>Friends' Horror Movie Cinema Night </title>>
+    <!-- Styles -->
+    <style>
+        body {
+            background-color: black;
+        }
+
+        #outer {
+            margin: 105px 50px 20px 335px;
+            position: relative;
+            width: 50%;
+        }
+
+
+        #outer img {
+            width: 100%;
+            height: auto;
+            border: #fa0000 solid 2px;
+            border-radius: 5%;
+
+        }
+
+
+        #outer #Go {
+            margin: 20px 130px 0 85px;
+            position: absolute;
+            top: 35%;
+            left: 26%;
+            right: 20%;
+            background-color: black;
+            color: #fa0000;
+            font-size: 25px;
+            padding: 12px 2px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #outer #Go:hover {
+            background-color: black;
+            border-color: red;
+            border-style: dotted groove;
+        }
+
+        a {
+
+            text-decoration: none;
+            color: #fa0000;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <!-- Logo -->
-        <a href="index.html">
-            <h1 id="logo"><i class="fa-solid fa-film"></i>FHMC</h1>
-        </a>
-        <!-- Navigation -->
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html" class="active">Home<i class="fa-solid fa-house"></i></a>
-                </li>
-                <li>
-                    <a href="memory.html">Memories<i class="fa-solid fa-clapperboard"></i></a>
-                </li>
-
-                <li>
-                    <a href="registration.html">Regestration<i class="fa-solid fa-arrow-right-to-bracket"></i></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Poster -->
     <div id="outer">
-        <div id="main-image">
-            <img src="assets/images/my-project.jpg" alt="movie posters as a main im">
-        </div>
-    </div>
-    <!-- page's About -->
-    <section id="introductions">
-        <h2>Friends' Horror Movie Cinema</h2>
-        <hr>
+        <img src="assets/images/cinema.jpg" alt="cinema">
         <div>
-            <p>
-                <em>The idea for this cinema and website first came up to me from my own
-                    movie nights experience with my cousins <i class="fa-solid fa-people-roof"></i>,
-                    It started after the Coronavirus pandemic <i class="fa-solid fa-virus-covid"></i>,we were at our
-                    houses no one went out,
-                    we ofthen played in the garden(Football, Tennis, even Hide and Seek <i
-                        class="fa-solid fa-face-laugh-squint"></i>)
-                    then we decided to do something we haven't done yet. <i class="fa-solid fa-sparkles"></i> So I said
-                    that
-                    I have a great horror movie <i class="fa-solid fa-camera-movie"></i> let's watch it tonight, we
-                    agreed and collected some money for snacks <i class="fa-solid fa-burger-fries"></i>.
-                    At night we gathered with girls and watched two movie and spent joyful time
-                    together until the morning and we decide to do it once a while and all those nights were unique. There was
-                    even nights in which we watched movies until 4:00 am and then went out together for a walk with loosing 
-                    energy and joy.
-                    They became
-                    the most memorable part of our lives.
-                    So now we are here to provide you the opportunity to experience a great joy too!
+            <button id="Go">
+                <a href="home.html"><i class="fa-solid fa-arrow-right"></i>FHMC<i class="fa-solid fa-door-open"></i></a>
+            </button>
+        </div>
 
-                </em>
-            </p>
-        </div>
-        <!-- Link to memory.html -->
-        <div id='a-tag'>
-            <a href="memory.html">
-                <h2>So let's take a look to those memories here!</h2>
-            </a>
-        </div>
-    </section>
-    <!--Footer-->
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page(open in a new tab"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page(open in a new tab"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube page(open in a new tab"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page(open in a new tab"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
-    <!-- Font awesome script -->
+    </div>
     <script src="https://kit.fontawesome.com/2408548ad3.js" crossorigin="anonymous"></script>
 </body>
 
