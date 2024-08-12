@@ -26,7 +26,7 @@
 # FHMC
 
 ![Site view across devices](assets/images/readme-images/am-I-responsive.png)
-The FHMC site is live, the link to which can be found [HERE](https://zabeenasherzoie.github.io/FHMC-/)
+The FHMC site is live, the link to which can be found [HERE]( https://zabeenasherzoie.github.io/FHMC-/)
 ## UX:
 ### Site Purpose:
 Friends' Horror Movie Cinema is a cinema built for those who love spendig time with their friends specialy watching horror movies and playing games all night.
