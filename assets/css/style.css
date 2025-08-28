@@ -198,6 +198,9 @@ footer {
     margin-top: 20px;
     
 }
+footer a{
+    color: #fa0000;
+}
 
 .social-networks {
     text-align: center;
